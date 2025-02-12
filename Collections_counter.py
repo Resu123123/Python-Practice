@@ -10,6 +10,7 @@ customer = int(input())
 total = 0
 for i in range(customer):
     size, rate = map(int, input().split())
+    sizes[0]
     if sizes[size]: 
         sizes[size] -= 1
         total += rate
